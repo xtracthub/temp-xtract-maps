@@ -1,8 +1,16 @@
 import numpy as np
 import cv2
+import logging
 from PIL import Image
 import pytesseract
 from contouring import isolate_text_boxes, boxes_to_contours
+
+
+# Setup for the debug logger
+logging.basicConfig(format='%(asctime)s - %(filename)s - %(funcName)s - %('
+                          'message)s', level=logging.DEBUG,
+                    filename='debug.txt', filemode='w')
+logger = logging.getLogger('logger')
 
 
 def get_partial_image(box, cv_img):
@@ -82,7 +90,7 @@ def extract_text(img, padding=10, dist_threshold=12, debug=False):
                                     -1, (0,0,255), 2)
         output = 'image_with_text_boxes.jpg'
         cv2.imwrite(output, img_temp)
-        print('Written file:', output)
+        logger.debug(f'Written file {output}')
 
     box_to_text = get_text_from_boxes(text_boxes,
                                       cv2.cvtColor(img, cv2.COLOR_BGR2GRAY))

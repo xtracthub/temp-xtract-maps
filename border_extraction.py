@@ -1,8 +1,15 @@
 import numpy as np
 import cv2
-from PIL import Image
+import logging
 from contouring import pre_process_image
 from coordinate_extraction import pixel_to_coords_map, coord_to_abs
+
+
+# Setup for the debug logger
+logging.basicConfig(format='%(asctime)s - %(filename)s - %(funcName)s - %('
+                          'message)s', level=logging.DEBUG,
+                    filename='debug.txt', filemode='w')
+logger = logging.getLogger('logger')
 
 
 def valid_contour(contour, img_dim, min_fraction=0.001, max_fraction=0.7):
@@ -69,7 +76,7 @@ def extract_borders(img, path_given=False, approximation=None, close=True,
 
     if debug:
         cv2.imwrite('pre_processed_image.jpg', cv_img)
-        print('Written pre_processed_image.jpg')
+        logger.debug('Written pre_processed_image.jpg')
 
     ret, thresh = cv2.threshold(cv_img, 127, 255, 0)
     contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE,
@@ -139,43 +146,44 @@ def extract_borders_with_coordinates(img, path_given=False, approximation=None,
         pixel_to_coords = pixel_to_coords_map(cv_img, path_given=False,
                                               debug=debug)
         if debug:
-            print('Generated pixel_to_coords map')
+            logger.debug('Generated pixel_to_coords map')
         borders = extract_borders(cv_img, path_given=False,
                                   approximation=approximation, debug=debug)
         return borders_to_coordinates(borders, pixel_to_coords,
                                       absolute=absolute)
     except RuntimeError as e:
-        print(e)
+        logger.error(exc_info=True)
         return None
 
+# Test code, please ignore
 
-if __name__ == '__main__':
-    images = [
-        # 'pub8_images/CAIBOX_2009_map.jpg',
-        # 'pub8_images/GOMECC2_map.jpg',
-        # 'pub8_images/EQNX_2015_map.jpg',
-        # 'pub8_images/Marion_Dufresne_map_1991_1993.jpg',
-        # 'pub8_images/P16S_2014_map.jpg',
-        'Oscar_Dyson_map.jpg'
-        # 'pub8_images/Bigelow2015_map.jpg',
-        #'testpic.png'
-        # 'pub8_images/woce_a25.gif',
-        # 'pub8_images_2/pub8.oceans.save.SAVE.jpg'
-        ]
-
-    for image in images:
-        cv_img = cv2.imread(image)
-        borders = extract_borders_with_coordinates(cv_img, path_given=False,
-                                                   approximation=0.01,
-                                                   debug=False, absolute=True)
-        print('For image', image, '\n')
-        for i, border in enumerate(borders):
-            print('Border', i)
-            print(border)
-
-    for image in images:
-        cv_img = cv2.imread(image)
-        borders = extract_borders(cv_img, approximation=0.01)
-        cv_img = cv2.drawContours(cv_img, borders, -1, (0,0,255), 4)
-        img = Image.fromarray(cv_img)
-        img.show()
+# if __name__ == '__main__':
+#     images = [
+#         # 'pub8_images/CAIBOX_2009_map.jpg',
+#         # 'pub8_images/GOMECC2_map.jpg',
+#         # 'pub8_images/EQNX_2015_map.jpg',
+#         # 'pub8_images/Marion_Dufresne_map_1991_1993.jpg',
+#         # 'pub8_images/P16S_2014_map.jpg',
+#         'Oscar_Dyson_map.jpg'
+#         # 'pub8_images/Bigelow2015_map.jpg',
+#         #'testpic.png'
+#         # 'pub8_images/woce_a25.gif',
+#         # 'pub8_images_2/pub8.oceans.save.SAVE.jpg'
+#         ]
+#
+#     for image in images:
+#         cv_img = cv2.imread(image)
+#         borders = extract_borders_with_coordinates(cv_img, path_given=False,
+#                                                    approximation=0.01,
+#                                                    debug=False, absolute=True)
+#         print('For image', image, '\n')
+#         for i, border in enumerate(borders):
+#             print('Border', i)
+#             print(border)
+#
+#     for image in images:
+#         cv_img = cv2.imread(image)
+#         borders = extract_borders(cv_img, approximation=0.01)
+#         cv_img = cv2.drawContours(cv_img, borders, -1, (0,0,255), 4)
+#         img = Image.fromarray(cv_img)
+#         img.show()

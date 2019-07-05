@@ -1,7 +1,15 @@
 import numpy as np
 import re
 import cv2
+import logging
 from text_extraction import extract_text
+
+
+# Setup for the debug logger
+logging.basicConfig(format='%(asctime)s - %(filename)s - %(funcName)s - %('
+                          'message)s', level=logging.DEBUG,
+                    filename='debug.txt', filemode='w')
+logger = logging.getLogger('logger')
 
 
 def get_coordinates_from_text(box_to_text):
@@ -319,7 +327,6 @@ def get_coordinate_span(coords, infer=True, img_dim=None, absolute=False):
         height, width = img_dim[:2]
     except TypeError:
         raise ValueError('Must provide img_dim when infer is set to True')
-        return None
 
     pixel_to_coords = pixel_to_coords_map_helper(coords, to_int=True)
     return pixel_to_coords_to_span(pixel_to_coords, img_dim=(height, width),
@@ -348,8 +355,8 @@ def extract_coordinates(img, path_given=False, infer=True, padding=10,
                                dist_threshold=dist_threshold)
     coords = get_coordinates_from_text(box_to_text)
     if debug:
-        print(box_to_text)
-        print(coords)
+        logger.debug(box_to_text)
+        logger.debug(coords)
     return get_coordinate_span(coords, infer=infer, img_dim=img.shape)
 
 
@@ -381,8 +388,8 @@ def pixel_to_coords_map(img, path_given=False, padding=10, dist_threshold=12,
     coords = get_coordinates_from_text(box_to_text)
 
     if debug:
-        print(box_to_text)
-        print(coords)
+        logger.debug(box_to_text)
+        logger.debug(coords)
     if return_all_text:
         return pixel_to_coords_map_helper(coords, to_int=to_int,
                                           debug=debug), coords
@@ -408,8 +415,8 @@ def pixel_to_coords_map_helper(coords, to_int=False, debug=False):
     if any_coord_equal(lat[0], lat[1], 'LAT') or any_coord_equal(lon[0],
                                                                  lon[1], 'LON'):
         if debug:
-            print('Number of valid coordinates found is not enough to '
-                  'extrapolate a mapping from pixels to coordinates')
+            logger.debug('Number of valid coordinates found is not enough to '
+                         'extrapolate a mapping from pixels to coordinates')
         return None
 
     def to_latitude(y):
@@ -506,7 +513,7 @@ def pixel_to_coords_map_multiple_tries(img, path_given=False,
     for i in range(n):
         p, d = paddings[i], dist_thresholds[i]
         if debug:
-            print('Trying with padding %d and thresh %d' % (p, d))
+            logger.debug(f'Trying with padding {p} and thresh {d}')
         pixel_to_coords = pixel_to_coords_map(cv_img, path_given=False,
                                               padding=p, dist_threshold=d,
                                               return_all_text=return_all_text,
@@ -516,11 +523,11 @@ def pixel_to_coords_map_multiple_tries(img, path_given=False,
 
         if not pixel_to_coords:
             if debug:
-                print('Failed with this padding and thresh')
+                logger.debug('Failed with this padding and thresh')
             continue
         elif not valid_pixel_map(pixel_to_coords, cv_img.shape):
             if debug:
-                print('Invalid map with this padding and thresh')
+                logger.debug('Invalid map with this padding and thresh')
             continue
         else:
             break
