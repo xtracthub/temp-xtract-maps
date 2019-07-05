@@ -1,4 +1,5 @@
-if 0:
-    print('true')
-else:
-    print('false')
+x = 1
+try:
+    x.__iter__
+except:
+    print("not cool")

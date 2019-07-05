@@ -235,7 +235,7 @@ def extract_location_metadata_with_borders(img, border_index, city_index, path_g
     img_dim = cv_img.shape
 
     # extract pixel-coordinate map
-    pixel_to_coords, coords = pixel_to_coords_map_multiple_tries(cv_img, path_given=False, return_all_text=True, num_iter=2, debug=debug)
+    pixel_to_coords, coords = pixel_to_coords_map_multiple_tries(cv_img, path_given=False, return_all_text=True, debug=debug)
     direct_text = get_location_names(coords['other'].values(), city_index)
 
     if not pixel_to_coords:     # valid pixel_to_coords not found
