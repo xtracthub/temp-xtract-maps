@@ -6,18 +6,16 @@ import argparse
 The Docker container stored as a DockerHub Image should store all dependency 
 downloads. Some 'difficult' ones include the shapely and opencv (cv2) 
 downloads, Google OCR Tesseract, and libgeos-dev (C binding for shapely). 
-    
-This Docker Image should always run Python3.  
 
+This Docker Image should always run Python3.  
 @ScriptAuthor: Tyler J. Skluzacek (skluzacek@uchicago.edu) --- DockerImage/Workflow point of contact
 @ModuleAuthor: Rohan Kumar --- Module point of contact
-    
+
 """
 
 
 def get_indices():
     """Loads city and border indexes.
-
     Return:
     (tuple): 2-tuple of city index and border index.
     """
@@ -29,10 +27,8 @@ def get_indices():
 
 def extract_map_metadata(filename, debug=False):
     """Extracts map metadata from a map image.
-
     Parameter:
     filename (str): Path to map image.
-
     Return:
     metadata (tuple): 3-tuple of coordinate span of img, regions found in img,
     and text directly found in img.
@@ -50,11 +46,9 @@ def extract_map_metadata(filename, debug=False):
 
 if __name__ == "__main__":
     """Takes file paths from command line and returns metadata.
-
     Arguments:
     --path (File path): File path of map image file.
     --debug (bool): Whether to turn on debug mode.
-
     Returns:
     meta (insert type here): 3-tuple of coordinate span of img, regions found 
     in img, and text directly found in img.
@@ -72,4 +66,3 @@ if __name__ == "__main__":
     print(meta)
     t1 = time.time()
     print(t1 - t0)
-
