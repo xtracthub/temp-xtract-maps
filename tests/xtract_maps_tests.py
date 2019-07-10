@@ -1,16 +1,21 @@
-from xtract_maps_main import extract_map_metadata
-import os
 import unittest
+import os
+import sys
 
+os.chdir("..")
 current_directory = os.getcwd()
+sys.path.append(current_directory + '/code')
 
-img1 = current_directory + '/test_imgs/CAIBOX_2009_map.jpg'
-img2 = current_directory + '/test_imgs/Bigelow2015_map.jpg'
-img3 = current_directory + '/test_imgs/GOMECC2_map.jpg'
-img4 = current_directory + '/test_imgs/Marion_Dufresne_map_1991_1993.jpg'
-img5 = current_directory + '/test_imgs/Oscar_Dyson_map.jpg'
-img6 = current_directory + '/test_imgs/P16S_2014_map.jpg'
-img7 = current_directory + '/test_imgs/us_states.png'
+from xtract_maps_main import extract_map_metadata
+
+
+img1 = current_directory + '/tests/test_imgs/CAIBOX_2009_map.jpg'
+img2 = current_directory + '/tests/test_imgs/Bigelow2015_map.jpg'
+img3 = current_directory + '/tests/test_imgs/GOMECC2_map.jpg'
+img4 = current_directory + '/tests/test_imgs/Marion_Dufresne_map_1991_1993.jpg'
+img5 = current_directory + '/tests/test_imgs/Oscar_Dyson_map.jpg'
+img6 = current_directory + '/tests/test_imgs/P16S_2014_map.jpg'
+img7 = current_directory + '/tests/test_imgs/us_states.png'
 
 
 # Test cases for xtract-maps. Very naively only checks whether it outputs

@@ -1,6 +1,8 @@
 from location_extraction import load_city_index, load_border_index, extract_location_metadata
 import time
 import argparse
+import os
+os.chdir("..")
 
 """This script handles the run-logic for the map-wizard Skluma module. 
 The Docker container stored as a DockerHub Image should store all dependency 
@@ -22,7 +24,7 @@ def get_indices():
     city_index = load_city_index()
     border_index = load_border_index()
 
-    return (city_index, border_index)
+    return city_index, border_index
 
 
 def extract_map_metadata(filename, debug=False):
@@ -50,8 +52,8 @@ if __name__ == "__main__":
     --path (File path): File path of map image file.
     --debug (bool): Whether to turn on debug mode.
     Returns:
-    meta (insert type here): 3-tuple of coordinate span of img, regions found 
-    in img, and text directly found in img.
+    meta (insert type here): 3-tuple of coordinate span of img, regions 
+    found in img, and text directly found in img.
     t1 - t0 (float): Time it took to retrieve map metadata.
     """
     parser = argparse.ArgumentParser()

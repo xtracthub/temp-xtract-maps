@@ -154,36 +154,3 @@ def extract_borders_with_coordinates(img, path_given=False, approximation=None,
     except RuntimeError as e:
         logger.error(exc_info=True)
         return None
-
-# Test code, please ignore
-
-# if __name__ == '__main__':
-#     images = [
-#         # 'pub8_images/CAIBOX_2009_map.jpg',
-#         # 'pub8_images/GOMECC2_map.jpg',
-#         # 'pub8_images/EQNX_2015_map.jpg',
-#         # 'pub8_images/Marion_Dufresne_map_1991_1993.jpg',
-#         # 'pub8_images/P16S_2014_map.jpg',
-#         'Oscar_Dyson_map.jpg'
-#         # 'pub8_images/Bigelow2015_map.jpg',
-#         #'testpic.png'
-#         # 'pub8_images/woce_a25.gif',
-#         # 'pub8_images_2/pub8.oceans.save.SAVE.jpg'
-#         ]
-#
-#     for image in images:
-#         cv_img = cv2.imread(image)
-#         borders = extract_borders_with_coordinates(cv_img, path_given=False,
-#                                                    approximation=0.01,
-#                                                    debug=False, absolute=True)
-#         print('For image', image, '\n')
-#         for i, border in enumerate(borders):
-#             print('Border', i)
-#             print(border)
-#
-#     for image in images:
-#         cv_img = cv2.imread(image)
-#         borders = extract_borders(cv_img, approximation=0.01)
-#         cv_img = cv2.drawContours(cv_img, borders, -1, (0,0,255), 4)
-#         img = Image.fromarray(cv_img)
-#         img.show()

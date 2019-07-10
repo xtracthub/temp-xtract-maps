@@ -3,7 +3,55 @@
   <component name="ChangeListManager">
     <list default="true" id="3018f55b-2472-4264-8c64-4bad04a1600a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/border_extraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/city_index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contouring.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coordinate_extraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/country.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_countries_no_lakes/ne_10m_admin_0_countries_lakes.README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_countries_no_lakes/ne_10m_admin_0_countries_lakes.VERSION.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_countries_no_lakes/ne_10m_admin_0_countries_lakes.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_countries_no_lakes/ne_10m_admin_0_countries_lakes.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_countries_no_lakes/ne_10m_admin_0_countries_lakes.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_countries_no_lakes/ne_10m_admin_0_countries_lakes.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_countries_no_lakes/ne_10m_admin_0_countries_lakes.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_sovereign.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_subunits.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_subunits/ne_10m_admin_0_map_subunits.README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_subunits/ne_10m_admin_0_map_subunits.VERSION.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_subunits/ne_10m_admin_0_map_subunits.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_subunits/ne_10m_admin_0_map_subunits.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_subunits/ne_10m_admin_0_map_subunits.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_subunits/ne_10m_admin_0_map_subunits.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_subunits/ne_10m_admin_0_map_subunits.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_units.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_units/ne_10m_admin_0_map_units.README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_units/ne_10m_admin_0_map_units.VERSION.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_units/ne_10m_admin_0_map_units.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_units/ne_10m_admin_0_map_units.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_units/ne_10m_admin_0_map_units.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_units/ne_10m_admin_0_map_units.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/map_units/ne_10m_admin_0_map_units.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/sovereignty/ne_10m_admin_0_sovereignty.README.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/sovereignty/ne_10m_admin_0_sovereignty.VERSION.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/sovereignty/ne_10m_admin_0_sovereignty.cpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/sovereignty/ne_10m_admin_0_sovereignty.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/sovereignty/ne_10m_admin_0_sovereignty.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/sovereignty/ne_10m_admin_0_sovereignty.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/country_shapefiles/sovereignty/ne_10m_admin_0_sovereignty.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/location_extraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_imgs/Bigelow2015_map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_imgs/CAIBOX_2009_map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_imgs/GOMECC2_map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_imgs/Marion_Dufresne_map_1991_1993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_imgs/Oscar_Dyson_map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_imgs/P16S_2014_map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_imgs/us_states.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_extraction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/unionfind.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract_maps_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/xtract_maps_tests.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +61,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xtract_maps_main.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/xtract_maps_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/xtract_maps_main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding>
                 <element signature="e#0#93#0" expanded="true" />
               </folding>
@@ -24,71 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/location_extraction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/unionfind.py">
+        <entry file="file://$PROJECT_DIR$/code/location_extraction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/border_extraction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3060">
-              <caret line="180" column="19" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contouring.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text_extraction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coordinate_extraction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -145,13 +146,19 @@
         <option value="$PROJECT_DIR$/contouring.py" />
         <option value="$PROJECT_DIR$/nest_function_test.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/border_extraction.py" />
         <option value="$PROJECT_DIR$/text_extraction.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/coordinate_extraction.py" />
-        <option value="$PROJECT_DIR$/location_extraction.py" />
         <option value="$PROJECT_DIR$/unionfind.py" />
         <option value="$PROJECT_DIR$/xtract_maps_tests.py" />
+        <option value="$PROJECT_DIR$/border_extraction.py" />
+        <option value="$PROJECT_DIR$/location_extraction.py" />
+        <option value="$PROJECT_DIR$/xtract_maps_main.py" />
+        <option value="$PROJECT_DIR$/project/xtract_maps_main.py" />
+        <option value="$PROJECT_DIR$/project/location_extraction.py" />
+        <option value="$PROJECT_DIR$/tests/xtract_maps_tests.py" />
+        <option value="$PROJECT_DIR$/code/location_extraction.py" />
+        <option value="$PROJECT_DIR$/code/xtract_maps_main.py" />
       </list>
     </option>
   </component>
@@ -165,12 +172,15 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/location_extraction.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/location_extraction.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -187,8 +197,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.xtract_maps_main">
-    <configuration name="location_extraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.xtract_maps_tests (1)">
+    <configuration name="location_extraction" type="PythonConfigurationType" factoryName="Python">
       <module name="xtract-map" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,12 +206,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/location_extraction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/location_extraction.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,28 +242,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="xtract-map" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="xtract_maps_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="xtract-map" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -267,7 +255,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xtract_maps_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/xtract_maps_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="xtract_maps_tests (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="xtract-map" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/xtract_maps_tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,13 +308,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.location_extraction" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.xtract_maps_main" />
+      <item itemvalue="Python.xtract_maps_tests" />
+      <item itemvalue="Python.xtract_maps_tests (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xtract_maps_tests (1)" />
         <item itemvalue="Python.xtract_maps_main" />
         <item itemvalue="Python.xtract_maps_tests" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.location_extraction" />
       </list>
     </recent_temporary>
   </component>
@@ -321,21 +337,24 @@
       <workItem from="1562169531751" duration="44246000" />
       <workItem from="1562592643829" duration="4158000" />
       <workItem from="1562600166715" duration="4487000" />
+      <workItem from="1562767852028" duration="4017000" />
+      <workItem from="1562771918543" duration="1015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52891000" />
+    <option name="totallyTimeSpent" value="57923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2497979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2996454" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.2996454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,8 +362,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.28014183" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5004042" side_tool="true" weight="0.2996454" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28014183" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -358,13 +377,14 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/xtract_map$main.coverage" NAME="main Coverage Results" MODIFIED="1562600333476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xtract_map$xtract_maps_main.coverage" NAME="xtract_maps_main Coverage Results" MODIFIED="1562601584681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xtract_map$xtract_maps_main.coverage" NAME="xtract_maps_main Coverage Results" MODIFIED="1562772622815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xtract_map$test.coverage" NAME="test Coverage Results" MODIFIED="1562357973133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xtract_map$location_extraction.coverage" NAME="location_extraction Coverage Results" MODIFIED="1562295863822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xtract_map$xtract_maps_tests__1_.coverage" NAME="xtract_maps_tests (1) Coverage Results" MODIFIED="1562772649282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/xtract_map$location_extraction.coverage" NAME="location_extraction Coverage Results" MODIFIED="1562769890065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
     <SUITE FILE_PATH="coverage/xtract_map$text_extraction.coverage" NAME="text_extraction Coverage Results" MODIFIED="1562207837405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xtract_map$coordinate_extraction.coverage" NAME="coordinate_extraction Coverage Results" MODIFIED="1562207930320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xtract_map$border_extraction.coverage" NAME="border_extraction Coverage Results" MODIFIED="1562293649475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/xtract_map$xtract_maps_tests.coverage" NAME="xtract_maps_tests Coverage Results" MODIFIED="1562601480444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/xtract_map$xtract_maps_tests.coverage" NAME="xtract_maps_tests Coverage Results" MODIFIED="1562768421037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xtract_map$nest_function_test.coverage" NAME="nest_function_test Coverage Results" MODIFIED="1562281668006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/xtract_map$contouring.coverage" NAME="contouring Coverage Results" MODIFIED="1562187698223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -380,91 +400,61 @@
     <entry file="file://$PROJECT_DIR$/nest_function_test.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/../xtract-tabular/main_structured.py" />
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/xtract_maps_tests.py" />
+    <entry file="file://$PROJECT_DIR$/coordinate_extraction.py" />
+    <entry file="file://$PROJECT_DIR$/unionfind.py" />
+    <entry file="file://$PROJECT_DIR$/border_extraction.py" />
+    <entry file="file://$PROJECT_DIR$/text_extraction.py" />
+    <entry file="file://$PROJECT_DIR$/contouring.py" />
+    <entry file="file://$PROJECT_DIR$/location_extraction.py" />
+    <entry file="file://$PROJECT_DIR$/xtract_maps_main.py" />
+    <entry file="file://$PROJECT_DIR$/project/xtract_maps_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding>
             <element signature="e#0#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xtract_maps_tests.py">
+    <entry file="file://$PROJECT_DIR$/project/location_extraction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="17">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xtract_maps_main.py">
+    <entry file="file://$PROJECT_DIR$/code/location_extraction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/xtract_maps_main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
           <folding>
             <element signature="e#0#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unionfind.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="60" lean-forward="true" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contouring.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coordinate_extraction.py">
+    <entry file="file://$PROJECT_DIR$/tests/xtract_maps_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/border_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
-          <caret line="180" column="19" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/location_extraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

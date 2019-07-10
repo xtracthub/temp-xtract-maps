@@ -99,10 +99,10 @@ def load_border_index(index_name='unit'):
         raise ValueError('index_name must be one of %s' % index_names)
 
     name_to_index = {
-        'country': 'country_shapefiles/country.json',
-        'unit': 'country_shapefiles/map_units.json',
-        'subunit': 'country_shapefiles/map_subunits.json',
-        'sovereign': 'country_shapefiles/map_sovereign.json',
+        'country': 'data/country_shapefiles/country.json',
+        'unit': 'data/country_shapefiles/map_units.json',
+        'subunit': 'data/country_shapefiles/map_subunits.json',
+        'sovereign': 'data/country_shapefiles/map_sovereign.json',
     }
 
     with open(name_to_index[index_name]) as f:
@@ -110,7 +110,7 @@ def load_border_index(index_name='unit'):
     return OrderedDict(index)
 
 
-def load_city_index(path='city_index.json'):
+def load_city_index(path='data/city_index.json'):
     """Loads a city index from a JSON file.
 
     Parameter:
@@ -463,36 +463,3 @@ def extract_location_metadata(img, border_index, city_index, use_borders=True,
                                                          attributes=attributes,
                                                          unique=unique,
                                                          debug=debug)
-
-# Test code, please ignore
-
-# def main(use_borders=True):
-#     images = [
-#         # '../../Image_Processing/pub8_images/CAIBOX_2009_map.jpg',
-#         # '../../Image_Processing/pub8_images/GOMECC2_map.jpg',
-#         # '../../Image_Processing/pub8_images/EQNX_2015_map.jpg',
-#         # '../../Image_Processing/pub8_images/Marion_Dufresne_map_1991_1993.jpg',
-#         # '../../Image_Processing/pub8_images/P16S_2014_map.jpg',
-#         # '../../Image_Processing/pub8_images/Oscar_Dyson_map.jpg',
-#         # '../../Image_Processing/pub8_images/Bigelow2015_map.jpg',
-#         # '../../Image_Processing/pub8_images/A16S_2013_map.jpg',
-#         # '../../Image_Processing/pub8_images/woce_a25.gif',
-#         # '../../Image_Processing/pub8_images_2/pub8.oceans.save.SAVE.jpg',
-#         '../../Image_Processing/pub8_images/Map_WEST_Coast_Cruise_2007.jpg',
-#         # '../../Image_Processing/us-states.png',
-#         'doesnotexist.blah',
-#         ]
-#
-#     # input('Press enter to run')
-#     index = load_border_index()
-#     city_index = load_city_index()
-#     for image in images:
-#         print('For %s:' % image)
-#         span, regions, direct_regions = extract_location_metadata(image, index, city_index, path_given=True, use_borders=use_borders, debug=False)
-#         print(span, '\n')
-#         print(regions, '\n')
-#         print(direct_regions, '\n')
-#
-#
-# if __name__ == '__main__':
-#     main(use_borders=True)
